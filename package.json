@@ -1,0 +1,17 @@
+{
+  "name": "astro-demo",
+  "type": "module",
+  "version": "V0.0.1",
+  "author": "zhaoyahui",
+  "description": "webGIS开发导航应用, 前端开发, GIS开发, UI设计相关网址应有尽有, 快来淘金吧. 发布地址: https://xiaohuibuhuifei.github.io/",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.2.1"
+  }
+}
