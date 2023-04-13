@@ -1,31 +1,18 @@
 ---
-const title = "欢迎来到导航页面";
+// 组件脚本 (JavaScript)
+// 首页
+// @author: zhaoyahui
+// @since: 2023-04-13
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageOptions = {
+  title: "首页",
+  author: "zhaoyahui",
+  date: "2023年4月13日",
+  ast: "astro",
+};
 ---
 
-<html lang="zn">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>导航页面</title>
-  </head>
-  <style>
-    html,
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-    }
-    .title {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
-  <body>
-    <div class="title">{title}</div>
-  </body>
-</html>
+<!-- 组件模板 (HTML + JS 表达式) -->
+<BaseLayout options={pageOptions}>
+  <div class="home-page">首页</div>
+</BaseLayout>

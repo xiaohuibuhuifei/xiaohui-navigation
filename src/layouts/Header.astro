@@ -1,0 +1,35 @@
+---
+// 组件脚本 (JavaScript)
+// 顶部布局组件
+// @author: zhaoyahui
+// @since: 2023-04-13
+---
+
+<!-- 组件样式 (CSS) -->
+<style is:global>
+  @font-face {
+    font-family: "yunfeng";
+    src: url("/assets/yunfengfeiyun.ttf");
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 0 15px;
+  }
+  .header .title {
+    font-size: 28px;
+    font-family: "yunfeng";
+    user-select: none;
+  }
+</style>
+
+<!-- 组件模板 (HTML + JS 表达式) -->
+<div class="header">
+  <div class="title">小辉导航</div>
+  <div></div>
+  <div>一句名言</div>
+</div>
